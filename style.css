@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 9;
+}
+body{
+	background: linear-gradient(to right,#8fd9a8,#d2e69c);
+	height: 100vh;
+}
+.list-box{
+	width: 700px;
+	margin: auto;
+	padding: 20px;
+}
+.content{
+	width: 100%;
+	border:none;
+	padding: 16px;
+	outline: none;
+	font-size: 20px;
+}
+.pending-task{
+	margin: 20px 0px;
+}
+.pending-task h2{
+
+}
+.task{
+	width: 100%;
+	background: rgba(255,255,255,0.6);
+	padding: 16px;
+	margin: 4px;
+	overflow: hidden;
+}
+.task i{
+	float: right;
+	margin-left: 16px;
+	cursor: pointer;
+}
+.task i:hover{
+	color: red;
+}
+.completed-task .task{
+	background: white;
+
+}
